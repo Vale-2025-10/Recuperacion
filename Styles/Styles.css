@@ -48,14 +48,14 @@ img{
 }
 
 @media (max-width: 480px) {
-    .contenido{
+    #contenido{
         flex-direction: column-reverse;
     }
     .logo{
         width: 60%;
     }
-    .img{
-        width: 50%;
+    img{
+        width: 100%;
     }
     .titulo{
         font-size: 160%;
@@ -63,5 +63,12 @@ img{
     .texto{
         font-size: 70%;
         width: 100%;
+    }
+    .caja1{
+        width: 80%;
+    }
+
+    .caja2{
+        height: auto;
     }
 }
